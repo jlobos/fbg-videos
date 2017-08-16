@@ -1,0 +1,42 @@
+{
+  "name": "fbg-videos",
+  "version": "0.0.0",
+  "description": "Get last videos of Facebook Group",
+  "license": "MIT",
+  "repository": "jlobos/fbg-videos",
+  "author": "Jesús Lobos <jlobitu@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "xo": {
+    "semicolon": false,
+    "space": true,
+    "rules": {
+      "camelcase": 0
+    }
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "facebook",
+    "group",
+    "videos",
+    "scraping"
+  ],
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "ms": "^2.0.0",
+    "node-fetch": "^1.7.2",
+    "qs": "^6.5.0",
+    "url-regex": "^4.1.1"
+  },
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "xo": "^0.18.2"
+  }
+}
