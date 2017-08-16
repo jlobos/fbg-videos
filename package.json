@@ -1,6 +1,6 @@
 {
   "name": "fbg-videos",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Get last videos of Facebook Group",
   "license": "MIT",
   "repository": "jlobos/fbg-videos",
